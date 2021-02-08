@@ -1,12 +1,27 @@
 /* regole generali */
+
 [class*="col-"]{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   min-height: 30px;
-  margin-bottom: 40px;
+  padding: 40px 20px;
   text-align: center;
 }
 
 [class*="col-"]>img{
-  width: 30%;
-  height: auto;
+  height: 200px;
+  margin-bottom: 30px;
 }
+
+[class*="col-"]>h2, [class*="col-"]>h3{
+  margin-bottom: 20px;
+}
+ footer>.row>[class*="col-"]>img{
+   background-color: #428bca;
+   border-radius: 50%;
+   padding: 30px;
+ }
+
+ .grey{
+   background-color: #f9f9f9;
+   margin: 40px 0;
+ }
