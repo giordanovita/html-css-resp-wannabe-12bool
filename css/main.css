@@ -1,0 +1,12 @@
+/* regole generali */
+[class*="col-"]{
+  border: 1px solid black;
+  min-height: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+[class*="col-"]>img{
+  width: 30%;
+  height: auto;
+}
